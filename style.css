@@ -1,0 +1,35 @@
+body{
+    margin:0
+}
+.header{
+    font-size:40px;
+    color:red;
+    text-align: center;
+    padding:25px 0 25px;
+}
+
+.menu{
+    display:flex;
+    justify-content: center;
+}
+
+.clear{
+    font-size:24px;
+    width:140px;
+    margin-bottom:35px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows: repeat(16,1fr);
+    width:960px;
+    height:960px;
+    margin:auto;
+    border-color:black;
+    border:solid;
+}
+
+/* .cell:hover{
+    background-color: aqua;
+} */
